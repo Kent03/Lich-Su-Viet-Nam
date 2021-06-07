@@ -1,0 +1,1972 @@
+.fontroboto {   font-family: 'Roboto Slab', serif;}
+.fontoswarld{font-family: 'Oswald', sans-serif;}
+
+/*div{
+    border: 1px solid red;
+}
+section{
+    border: 1px solid red;
+}*/
+/*BEGIN MENU & LOGO */
+body{
+    overflow-x:hidden;
+}
+
+a.nutslide.btn.btn-warning {
+    border-radius: 0;
+    width: 165px;
+    height: 50px;
+    color: black;
+    line-height: 50px;
+    padding: 0;
+    font-size: 14px;
+}
+
+.chu {
+    position: absolute;
+    color: white;
+    margin-left: 14%;
+    /* background: url(images/icon1.png) no-repeat left top; */
+    padding-top: 212px;
+    top: -54px;
+}
+
+.chu h2 {
+    font-size: 50px;
+    color: #fffdfd;
+}
+
+a.nav-link {
+    color: #777;
+    font-size: 14px;
+    margin-top: 43px;
+    padding: 0 15px;
+    /* color: azure; */
+}
+
+navbar-nav nav-item a.nav-link {
+}
+
+
+.log a.nav-link.btn.btn-warning,.datban2 {
+    border-radius: 0px;
+    font-size: 13px;
+    color: black;
+    width: 150px;
+    line-height: 44px;
+    text-align: center;
+    display: inline-block;
+    height: 44px;
+    padding: 0;
+    transform: translateY(-7px);
+}
+
+
+
+a.btn.btn-warning.datban2 {
+    font-weight: bold;
+    /* padding: 20px 68px; */
+    height: 50px;
+    width: 160px;
+    font-weight: bold;
+    font-family: roboto slab;
+    text-transform: uppercase;
+    margin-top: 40px;
+    line-height: 50px;
+}
+/*END MENU & LOGO*/
+ /*KHOI 3 DICH VU */
+
+a.readmore {
+    color: #242388;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    padding-top: 29px;
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 40px;
+    padding-top: 0px;
+}
+
+.badichvu h3 a {
+    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+    color: #efe706f2;
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.badichvu p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #efe3e3;
+    text-align: center;
+}
+
+.badichvu {
+    padding-top: 69px;
+    /* background: url(https://lh3.googleusercontent.com/proxy/kD1AVfJHxMLbsHer_Np35saJU8nQ7Ouvgy6fCWJ6NIAmgh2oMlGK8WsEdhkM90ug3TgK1UIc0wW9Fw64-NCrEmBCTzFzcr5FSaJWvV5kYGttc8inO09Nr-8tiXW6FBvHHyZ4vzEtp0EEWsHyaH4Z); */
+    background: radial-gradient(#cc0000, #1a314861);
+}
+
+.badichvu.badichvuabout {
+    padding-top: 107px;
+}
+ /*END KHOI 3 DICH VU */
+/* khoithoidai--- */
+*{margin: 0; padding: 0;}
+
+img.mobile {
+    width: 140px;
+    height: 130px;
+}
+
+img.logo {
+    width: 90px;
+    height: auto;
+}
+
+img.logof.logo {
+    width: 115px;
+}
+
+.swiper-pagination.swiper-pagination-bullets {
+    /* bottom: 178px; */
+}
+
+p.ktd:hover {
+    color: red;
+}
+
+p.ktd.td {
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+
+p:before {
+}
+
+p.ktd {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto Slab';
+    font-weight: 600;
+    padding-bottom: 20px;
+    /* border-bottom: 1px solid; */
+}
+
+p.ktd.\33 ngayle {
+    padding-top: 32px;
+    padding-bottom: 11px;
+}
+
+.col-sm-7.wow.slideInRight.le2 {
+    padding: 74px 76px;
+    color: aliceblue;
+}
+
+.col-sm-7.wow.slideInRight.le2.mobile p {
+    padding-top: 15px;
+}
+*{margin:0}
+.le img.zoom {
+    width: 300px;
+    border-radius: 50%;
+    padding: 30px 15px;
+}
+
+.col-sm-5 h2 {
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.chan img {
+    float: right;
+}
+
+.khoithoidai {
+    background-image: url(images/sky.jpg);
+    background-size: cover;
+}
+
+
+.col-sm-5 {
+    padding: 30px 15px;
+    color: aliceblue;
+}
+
+.col-sm-7 img {
+    width: 300px;
+    border-radius: 50%;
+    padding: 30px 15px;
+} 
+
+
+/* end khoi thoi dai--- */
+
+
+
+
+/*KHOI MENU */
+
+span.tieudephu {
+    font-weight: 700;
+    font-size: 41px;
+    color: #feb518;
+    /* padding-bottom: 15px; */
+}
+
+span.tieudephu.fontdancing.thoidai {
+    font-size: 31px;
+    font-weight: 500;
+    color: #cec9bf;
+}
+
+.tieudekhoimenu .container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.container.thoidai {
+    transform: translate(10px, 453px);
+}
+
+.tieudekhoimenu.text-xs-center {
+    display: table;
+    margin: auto;
+    height: 550px;
+}
+
+.khoimenu {}
+
+.khoimenu {
+    background: url(images/videochay.png);
+    background-size: cover;
+    /* color: white; */
+    /* width: 1519px; */
+    /* height: 796px; */
+}
+
+.khoimenu.wow.fadeInUp.bannerkieu2dong.logo3 {
+    background: url(images/planet.jpg);
+}
+*{
+    margin:0
+}
+
+.khoimenubantin.bannerkieu2dong {
+    background: url(images/sky.jpg);
+    height: 450px;
+}
+
+.khoimenubantin.wow.fadeInUp.bannerkieu2dong.thoidai {
+    background: none;
+    height: 106px;
+}
+
+ /*END KHOI MENU */
+
+
+ /*HIEU UNG */
+
+
+ /*css cho hieu ung loc menu */
+
+
+a.rm.fontroboto {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.docthem {                                                                                                  /*  class = "docthem"*/
+    height: 40px;
+    border-top: 1px dashed gray;
+    padding-top: 6px;
+    color: #777;
+    font-size: 14px;
+    margin-top: 27px;
+    padding-top: 17px;
+}
+
+.docthem.mb-2.khung2 {
+    padding-top: 16px;
+    margin-top: 51px;
+}
+
+.docthem.mb-2.khung1 {
+    padding-top: 16px;
+    margin-top: 100px;
+}
+
+.mottinchuan p.fontroboto {                                                                                          /* class = "motinchuan"*/
+    color: #777;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.ngaythang1 {                                                                                                           /*class="ngaythang1"*/
+    line-height: 24px;
+    font-size: 17px;
+    display: inline-block;
+    font-family: roboto slab;
+    color: #777;
+    padding-bottom: 19px;
+}
+
+a.tieudetin1.fontoswarld {
+    color: black;
+    font-size: 18px;
+    padding: 26px 0 12px 0;
+    display: block;
+}
+
+.tdtintuchome h2 {font-size: 24px;color: #333;margin-bottom: 55px;}
+
+.tdtintuchome  .fontdancing {                                                                                   /*class="fontdancing" */    
+    font-size: 40px;
+    color: #feb518;
+    font-weight: 600;
+}
+
+.tintuchome {
+    padding: 120px 0;
+}
+
+.mottinchuan img {
+    width: 100%;
+}
+
+.phanhoinguoidung ol.carousel-indicators {
+    bottom: -59px;
+}
+
+b.fontdancing.tennguoi {                                                                                     /*class="fontdancing"*/
+    font-size: 36px;
+    color: #feb518;
+    margin-top: 23px;
+    display: inline-block;
+}
+
+.phanhoinguoidung i.fa.fa-quote-right {
+    font-size: 36px;
+    margin-bottom: 66px;
+}
+
+.phanhoinguoidung {
+    margin-top: -80px;
+    background: #787878;
+    color: white;
+    padding: 92px 0;
+}
+
+
+
+.biendao span {
+    font-size: 19px;
+    color: #d8cde3;
+    font-weight: 300;
+}
+
+.biendao {
+    padding: 219px 0;
+    background: url(images/sea.png);
+    color: white;
+    margin-top: 20px;
+    /* transform: translateY(-4px); */
+}
+*{
+    padding:0
+}
+
+.noidung.CS {
+    padding-left: 9px;
+}
+
+.ten.cs {
+    padding-left: 9px;
+}
+
+a {}
+
+.col-sm-12.contentmap {
+    color: aliceblue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 25px;
+    font-weight: 200;
+    text-indent: 27px;
+}
+
+img.mapvn {width: 21%;position: absolute;top: 8px;left: -172px;}
+
+.dao p {color: #fbef2a;font-size: 30px;padding-top: 28px;font-weight: 700;}
+
+.dao {background: linear-gradient(45deg, #3f51b5, #c62c2ca3);}
+
+.tieudenews {
+    padding-top: 141px;
+}
+
+h3.fontdancing {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.color .ndung {transform: translateY(-197px);}
+
+.col-sm-8.push-sm-2 {
+    transform: translateY(157px);
+}
+
+.khoimenubantin .col-sm-8.push-sm-2 {
+    padding-top: 0px;
+    padding-bottom: 159px;
+}
+
+img.khoixe {
+    float: right;
+    transform: translateY(52px);
+}
+
+.transform {transform: translateX(650px);}
+.aodaicontact .icondb:hover {
+    background: #feb518;
+    color: black;
+}
+
+.aodaicontact .icondb {
+    background: black;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    text-align: center;
+    line-height: 36px;
+    color: white;
+    margin-right: 4px;
+    border-radius: 3px;
+    transition: 0.4s;
+}
+
+.thongtin {
+    padding-top: 114px;
+}
+
+.thongtin p {
+    line-height: 26px;
+    font-family: roboto slab;
+    color: #f3f3f3;
+    font-size: 16px;
+}
+
+.thongtin h2 {
+    font-size: 35px;
+    color: #fffffffa;
+    padding-bottom: 15px;
+}
+
+.thongtin span.fontdancing {
+    font-size: 31px;
+    color: #feb518;
+    padding-bottom: 25px;
+    display: block;
+}
+
+.gioithieuaodai img {
+    padding-top: 107px;
+    transform: translateX(275px);
+}
+
+.aodaicontact img {
+    padding-top: 152px;
+}
+
+.slidelehoi ol.carousel-indicators {
+    display: none;
+}
+
+.noidung {
+    font-size: 13px;
+    font-family: roboto slab;
+    font-size: 13px;
+    color: #aaa;
+}
+
+.ten .ten,.ten  {
+    font-family: oswald;
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+.slidelehoi a.right.carousel-control, .slidelehoi a.left.carousel-control {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.29);
+    width: 34px;
+    height: 34px;
+    top: -57px;
+    color: white;
+    line-height: 34px;
+    text-align: center;
+}
+.slidelehoi a.right.carousel-control:hover, .slidelehoi a.left.carousel-control:hover {
+    
+    background:rgba(254, 181, 24, 0.59);
+    
+}
+
+.slidelehoi a.left.carousel-control {
+    right: 36px;
+    left: auto;
+}
+
+.slidelehoi h4 {
+    font-family: roboto slab;
+    font-size: 24px;
+    padding: 23px 0;
+    margin-left: 0;
+}
+
+.slidelehoi {
+    margin-top: 18px;
+    background: url(images/BG2.jpg);
+    background-size: cover;
+    color: white;
+    margin-bottom: 20px;
+    padding-bottom: 70px;
+}
+
+img.anhspslide {
+    width: 100%;
+}
+
+.caclehoi {
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.tieudect a {
+    color: #fefefe;
+    font-size: 16px;
+    padding: 0 18px;
+}
+
+.tieudect a:focus {
+    color: #feb518;
+    text-decoration: none;
+}
+
+.duoi {
+    color: #777;
+    font-size: 13px;
+    font-family: 'Roboto Slab', serif;
+    padding-top: 9px;
+}
+
+b.ten {
+    background: white;
+    transform: translateY(3px);
+    display: inline-block;
+    padding-right: 7px;
+}
+
+
+
+.quote {
+
+font-family: roboto slab;
+
+line-height: 36px;
+
+font-size: 18px;
+}
+.quote:before {
+    content:'"';
+}
+
+.quote:after {
+    content:'"';
+}
+.tennguoi:before {
+    content: "- "
+} 
+/*HET HIEU UNG */
+  
+
+
+.openning1 .trai {
+    background: #151515;
+    float: left;
+    transform: translateY(9px);
+    padding-right: 10px;
+}
+
+.openning1 .phai.float-xs-right {
+    background: #151515;
+    transform: translateY(9px);
+    padding-left: 7px;
+}
+
+.openning1 {
+    border-bottom: 1px dotted gray;
+    height: 28px;
+    margin-bottom: 13px;
+    margin-top: -8px;
+}
+
+.cotf3 {padding-left: 90px;}
+
+.cotf2 ul li a,.cotf3 ul li a {
+    color: gray;
+    font-size: 14px;
+    font-family: roboto slab;
+    color: #888;
+    line-height: 28px;
+    transition: 0.4s;
+}
+
+.cotf2 ul li a:hover,.cotf3 ul li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.cotf2 ul,.cotf3 ul {
+    list-style: none;
+    margin: 0;
+}
+
+h2.tdft {
+    font-size: 14px;
+    color: #ccc;
+    font-family: roboto slab;
+    position: relative;
+    margin-bottom: 38px;
+}
+
+h2.tdft:after {content: "";display: block;width: 32px;height: 1px;background: #feb518;top: 21px;position: absolute;}
+
+.motdong {
+    overflow: hidden;
+    padding: 3px 0;
+}
+
+.motdong i.fa {
+    padding-right: 20px;
+    float: left;
+    padding-top: 6px;
+    color: #ababab;
+    font-size: 16px;
+}
+
+.motdong i.fa.fa-paper-plane-o {
+    padding-bottom: 23px;
+}
+
+.cotf1 p {
+    padding-top: 17px;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+.footerauto{
+  margin: 0;
+  padding: 0;
+  color: #d9d9d9;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+footer{
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  background: #111;
+  right: 0px;
+  /* height: 115px; */
+  padding-top: 13px;
+}
+.main-content{
+  display: flex;
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2{
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.box .content{
+  margin: 20px 0px 0px 0px;
+  position: relative;
+}
+
+.content.sizenew {
+    padding-top: 18px;
+}
+.box .content:before{
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #1a1a1a;
+}
+.box .content:after{
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background: #d38126;
+  top: -10px;
+}
+.left .content p{
+  text-align: justify;
+  padding-top: 20px;
+}
+.left .content .social{
+  margin: 20px 0 0 0;
+}
+.left .content .social a{
+  padding: 0 2px;
+}
+.left .content .social a i{
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+  color: white;
+}
+.left .content .social a i:hover{
+  background: #d38126;
+}
+.center .content .fas{
+  font-size: 1.4375rem;
+  background: #1a1a1a;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.center .content .fas:hover{
+  background: #d38126;
+}
+.center .content .text{
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.center .content .phone{
+  margin: 15px 0;
+}
+.right form .text{
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  color: #656565;
+}
+.right form .msg{
+  margin-top: 10px;
+}
+.right form input, .right form textarea{
+  width: 100%;
+  font-size: 1.0625rem;
+  background: #b7acac8a;
+  padding-left: 10px;
+  border: 1px solid #222222;
+}
+.right form input:focus,
+.right form textarea:focus{
+  outline-color: #3498db;
+}
+.right form input{
+  height: 35px;
+}
+.right form .btn{
+  margin-top: 10px;
+  padding-left: 0px;
+  padding-right: 1px;
+  margin-right: 0px;
+  width: 100%;
+  margin-left: 0px;
+}
+.right form .btn button{
+  height: 40px;
+  width: 437px;
+  border: none;
+  outline: none;
+  background: #d38126;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+}
+
+button.submit:hover {
+    color: white;
+}
+
+.right form .btn button:hover {
+}
+.right form .btn button:hover{
+  background: #000;
+}
+.bottom center{
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
+}
+.bottom center span{
+  color: #656565;
+}
+.bottom center a{
+  color: #d38126;
+  text-decoration: none;
+}
+.bottom center a:hover{
+  text-decoration: underline;
+}
+@media screen and (max-width: 900px) {
+    *{margin:0}
+
+.bottom {
+}
+
+.btn.mobile3 .submit {width: 323px;}
+
+.content.mobile2 {
+    padding-right: 0%;
+}
+
+p.mobile {
+    padding-right: 5px;
+}
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box{
+    margin: 5px 0;
+  }
+}
+
+ 
+
+a.vang { color: #feb518; }
+/*CSS CHO TRANG BAN TIN*/
+*{
+    margin:0
+}
+
+i.fa.fa-tag {
+    color: ghostwhite;
+}
+
+.thongtin2about.wow.fadeInUp {
+    /* padding-top: 0px; */
+    padding-bottom: 0px;
+    margin-bottom: -35px;
+}
+
+
+.tthucdon .khoi2dong p {
+    margin: 0;
+}
+
+.hcmabout .thongtin {
+    /* padding-top: 234px; */
+}
+
+.gioithieuhcm.hcmabout {
+  
+    padding: 0;
+    background: url(images/bg_about.jpg);
+}
+
+
+.khoi2dong .fontdancing {
+    font-size: 30px;
+    color: #feb518;
+    font-weight: bold;
+}
+
+.khoi2dong .fontoswarld {
+    color: #333;
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.khoi2dong {}
+
+.tthucdon .khoi2dong {
+    margin-top: 120px;
+    margin-bottom: 77px;
+}
+
+.khoi2dong p {
+    font-family: roboto slab, serif;
+    color: #777;
+    line-height: 24px;
+    margin-bottom: 44px;
+    margin-top: 21px;
+    border-bottom: 1px dashed #333;
+}
+
+.thongtin2about {
+    padding: 55px 0;
+}
+
+/*HET CSS CHO TRANG BT*/
+
+/*CSS cho trang news*/
+ *{margin: 0; padding: 0;}
+
+nav.navbar.navbar-light.fontroboto.nen3 {                                                                       /*Logo menu*/                                   /* class="fontroboto"*/
+    background: linear-gradient(45deg, #a93c3c, #0e3879de);
+    border-radius: 0px;
+}
+
+.aodaicontact {
+    padding-top: 80px;
+    float: right;
+}
+
+.btn.btn-success {
+    font-family: 'Oswald';
+    /* padding-left: 8px; */
+}
+
+
+h3.tieudechinh.fontroboto {                                                                                            /* class="fontroboto"*/
+    color: beige;
+    padding-top: 18px;
+}
+
+iframe {
+    width: 1139px;
+    height: 641px;
+    float: right;
+    /* padding-top: 122px; */
+    /* padding-right: 134px; */
+}
+.video2 {
+    width: 611px;
+    height: 392px;
+    float: right;
+    padding-top: 122px;
+    padding-right: 134px;
+}
+
+img.img-fluid.quockhanh {
+    width: 340px;
+    height: 328px;
+    position: relative;
+    left: 10px;
+    border-radius: 5%;
+    border: 3px solid #756675;
+}
+
+h1 {
+    background: #f93636;
+    border-radius: 19px;
+    color: white;
+    padding: 5px 5px;
+    margin-bottom: 60px;
+}
+
+.badichvu {
+}
+
+img.img-fluid.giaiphong {
+    width: 325px;
+    position: relative;
+    left: 16px;
+    border-radius: 5%;
+    border: 3px solid #756675;
+}
+
+img.img-fluid.laodong {width: 340px;height: 328px;position: relative;left: 10px;border-radius: 5%;border: 3px solid #756675;}
+
+ul.nav.navbar-nav.float-sm-right a {
+    /* color: aliceblue; */
+    color: aliceblue;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .active>.nav-link:focus, .navbar-light .navbar-nav .active>.nav-link:hover, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.active:focus, .navbar-light .navbar-nav .nav-link.active:hover, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .nav-link.open:focus, .navbar-light .navbar-nav .nav-link.open:hover, .navbar-light .navbar-nav .open>.nav-link, .navbar-light .navbar-nav .open>.nav-link:focus, .navbar-light .navbar-nav .open>.nav-link:hover 
+
+
+{
+}
+
+ul.nav.navbar-nav.float-sm-right a:hover {background-color: #c34f7c52;border-radius: 4%;color: white;}
+
+nav.navbar.navbar-light.fontroboto {
+    position: absolute;
+    z-index: 100;
+    padding: 4px 192px;
+}
+
+
+
+textarea.form-control.formcomment {
+    min-height: 74px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 0px;
+}
+
+input.form-control.formtext {
+    margin-top: 30px;
+    border-radius: 0px;
+}
+
+.webcontact .khoi2dong {
+    margin-top: 43px;
+}
+
+.webcontact {padding-top: 87px;}
+
+.newsdetail p {
+    padding-top: 15px;
+    font-size: 14px;
+    color: #777;
+    line-height: 24px;
+}
+
+nav.phantrang ul li {                                                                                                       /*class="phantrang"*/
+    display: inline-block;
+}
+
+nav.phantrang ul {                                                                                                             /*class="phantrang"*/
+    list-style: none;
+    display: inline-block;
+}
+
+nav.phantrang {                                                                                     /*class="phantrang"*/
+    text-align: center;
+}
+
+nav.phantrang ul li a,nav.phantrang ul li.current {                                                                                     /*class="phantrang"*/
+    display: inline-block;
+    color: #333;
+    /* padding: 13px; */
+    font-family: roboto slab;
+    font-size: 14px;
+    border: 1px solid #eee;
+    border-radius: 22px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+nav.phantrang ul li.pre a,nav.phantrang ul li.next a {                                                                                      /*class="phantrang"*/
+    width: 110px;
+}
+
+.thea a {color: white;text-decoration: none;}
+
+.webcontact a.btn.btn-block.btn-primary {
+    background: #333;
+    font-family: roboto slab;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: white;
+    line-height: 24px;
+    border-radius: 0px;
+    border: 1px solid #333333;
+    transition: 0.4s;
+}
+
+.webcontact a.btn.btn-block.btn-primary:hover {
+    border: 1px solid #feb52d;
+    background: #feb518;
+    color: #333;
+}
+
+nav.phantrang ul li.current, nav.phantrang ul li a:hover {                                                                     /* class="current"*/
+    border-color: #feb518;
+    background: #feb518;
+    color: white;
+    text-decoration: none;
+}
+
+.khoilistlink.my-2 {                                                                                                    /*class="khoilistlink"*/
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.khoilistlink ul.fontroboto {color: #c2c3c5;margin-left: 18px;}                                                                                                 /*class="khoilistlink"*/
+
+.khoilistlink ul li a {                                                                                                 /*class="khoilistlink"*/
+    color: #777;
+    line-height: 44px;
+    font-size: 14px;
+}
+
+.khoilistlink h3.fontoswarld {                                                                                                  /*class="khoilistlink"*/
+    font-size: 18px;
+    line-height: 50px;
+    color: #333;
+}
+
+button.iconsearch {
+    position: absolute;
+    top: 7px;
+    right: 12px;
+    background: none;
+    border: none;
+    color: #7f7f7f;
+    cursor: pointer;
+}
+
+.phansearch {
+    position: relative;
+}
+/*HET CSS CHO NEWS*/
+
+/*XU LY GIAO DIEN DI DONG */
+@media (max-width:576px) {
+    *{
+}
+
+.col-sm-8.push-sm-2.thankyou {
+    position: relative;
+    transform: translate(-2px, 60px);
+}
+
+ul.subMenu li {
+    display: none;
+}
+
+div#particles-js {
+    position: relative;
+    transform: translate(-47px, 10px);
+    width: 113%;
+}
+
+.col-sm-8.push-sm-2.len {
+    transform: translate(-8px, 10px);
+}
+
+.card-text p {
+    padding-right: 15px;
+}
+
+.card-text.card3 {}
+
+.card-text.card3 p {
+    padding-right: 15px;
+}
+
+.card-text.card2 {
+    padding-right: 15px;
+}
+
+p {}
+
+p.sizemobile {
+    font-size: 27px;
+}
+
+p.ktd.td {
+    font-size: 25px;
+}
+
+img.mobile {
+    max-width: 26%;
+    height: 76px;
+}
+
+.ndphu {display: none;}
+
+.hotro p {display: none;}
+
+p.tenmonhoc {
+    position: relative;
+    transform: translate(146px, -554px);
+}
+
+div#style-1 {
+    position: relative;
+    transform: translate(-112px, 113px);
+}
+
+b.khoademo {display: contents;}
+
+iframe.demohistory {
+    max-width: 342px;
+    transform: translate(-72px, 10px);
+    max-height: 298px;
+}
+    
+p#cackhoahoc {
+    font-size: 32px;
+}
+
+div#khoahoc {
+    width: 310px;
+}
+
+.khoachinh {
+    flex-direction: column;
+    transform: translate(-18px, 10px);
+}
+
+.col-sm-12.contentmap {
+    font-size: 25px;
+    text-indent: 0px;
+    font-weight: 200;
+}
+
+iframe {
+    width: 335px;
+    height: 230px;
+}
+
+nav.navbar.navbar-light.fontroboto.wow.fadeInDownBig {
+}
+
+.card-image {
+    max-width: 283px;
+}
+
+.card-stats {
+    max-width: 283px;
+}
+
+h2.fontoswarld {
+    font-size: 30px;
+}
+
+.video2 {
+    /* float: left; */
+    width: 422px;
+    padding-left: 61px;
+    padding-right: 5px;
+}
+
+.container {
+}
+
+.container.thoidai {
+    transform: translateY(-194px);
+}
+
+.container.ab {
+    height: 100%;
+    display: inherit;
+}
+
+.col-sm-2 {
+    transform: translate(-42px, 24px);
+}
+
+.aodaicontact {
+    transform: translate(-140px, -23px);
+}
+
+.btn.btn-success {
+}
+
+.mobileaodai {padding-right: 101px;padding-left: 149px;}
+
+.col-sm-10.transform.mobile {
+    transform: translateX(206px);
+}
+
+h3.fontdancing {
+    font-size: 54px;
+}
+
+.col-sm-7.wow.slideInRight.le2.mobile {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+p.ktd.\33 ngayle {
+    font-size: 28px;
+}
+
+.col-sm-8.push-sm-2.mobile {
+    transform: translate(1px, -4px);
+}
+
+div#mtren {
+}
+
+div#mtren {
+    /* padding-left: 10px; */
+    background: linear-gradient(45deg, #c44848d6, #671c1c);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: -24px;
+    margin-top: -5px;
+}
+
+.container.mobile {transform: translateX(-183px);/* background-color: #6b635af2; */}
+
+button.navbar-toggler.hidden-sm-up.mobile {
+    transform: translateX(-10px);
+}
+
+
+
+img.khoixe {display: none;}
+
+.contact .bannerkieu2dong {margin-top: 30px;}
+
+.footertop {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+
+.col-sm-3.cotf3 {
+    padding-left: 15px;
+}
+
+.sloganhome {
+    padding: 156px 0;
+}
+
+.sanpham {
+    width: 50%;
+}
+
+.row .sanpham:last-child {
+    width: 100%;
+}
+
+.tieudekhoimenu.text-xs-center {
+    height: 400px;
+}
+
+h3.tieudechinh.fontroboto {
+    font-size: 24px;
+}
+
+span.tieudephu.fontdancing {
+    font-size: 37px;
+}
+
+span.tieudephu.fontdancing.thoidai {
+    font-size: 14px;
+    color: #ffb006;
+}
+
+.badichvu {
+    padding-top: 21px;
+}
+    
+a.nutslide.fontoswarld.btn.btn-warning {                                                                                    /*class="fontoswarld"*/
+    width: 64px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 11px;
+}
+
+.chu p {
+    width: 348px;
+    font-size: 13px;
+    display: none;
+}
+
+.chu h2.fontoswarld {                                                                                   /*class="fontoswarld"*/
+    font-size: 17px;
+}
+
+.chu {
+    padding: 0;
+    top: 22px;
+    background: none;
+}
+
+    a.navbar-brand.text-xs-center.text-sm-left img {
+        height: 80px;
+    }
+
+    .log a.nav-link.btn.btn-warning {
+        margin-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 100%;
+        border-bottom: 0px;
+    }
+
+    .nav a.nav-link {
+        text-align: center;
+        padding: 13px 0;
+        margin: 0;
+        display: block;
+        border-bottom: 1px solid gray;
+    }
+
+    .datban {
+        border: none;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        border-top: 1px dashed #5a5a5a;
+    }
+
+    .topheader {
+        height: auto;
+        padding-bottom: 9px;
+    }
+    .datban.openingtop.float-sm-right {
+    border-right:none;
+    padding-right: 0px;
+    }
+}
+body{
+    overflow-x:hidden;
+}
+
+/*HET GIAO DIEN DI DONG */
+.gotop{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(45deg, #952618, transparent);
+    bottom: 40px;
+    right: 50px;
+    border-radius: 25%;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+i.fa.fa-chevron-up {color: aliceblue;transform: translate(14px, 11px);font-size: 21px;}
+
+
+/* phan cac trieu dai----- */
+*{margin: 0; padding: 0;}
+
+p.card-text {
+    font-weight: 800;
+}
+
+h4.card-title {
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.learn {background: linear-gradient(45deg, #a93c3c, #0e3879de);}
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    height: 52px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+/*CSS   ANH */
+
+ul.subMenu{
+    width: 500px;
+    list-style-type: none;
+    text-decoration: none;
+    display: none;
+    position: absolute;
+    background: linear-gradient(45deg, #a93c3c, #0e3879de);
+    color: black;
+}
+ul.subMenu li a{
+    color: black;
+    display: block;
+    line-height: 40px;
+    text-indent: 20px;
+
+}
+ul#root > li:hover ul.subMenu{
+    display: block;
+}
+
+/*END CSS   ANH */
+
+/* end--- */
+
+
+
+.button{
+    position: relative;
+    display: inline-block;
+    padding: 12px 36px;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg,#0162c8,#ff72c0);
+    transform: translateY(-176px);
+}
+.button:hover{
+    color: rgb(235, 230, 230);
+    text-decoration: none;
+}
+
+
+/* --- card  ---- */
+.ab {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:url("images/nenpc.jpg");
+    overflow: hidden;
+  }
+  .card {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+  
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    font-family: roboto;
+    text-align: center;
+    
+  
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin:30px;
+  }
+  .card-image {
+    grid-area: image;
+    background: url("images/aodai31.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+  
+  .card-text {
+    grid-area: text;
+    margin: 5px;
+  }
+  .card-text .date {
+    color: rgb(255, 7, 110);
+    font-size:13px;
+  }
+  .card-text p {
+    color: grey;
+    font-size:15px;
+    font-weight: 300;
+  }
+  .card-text h2 {
+    margin-top:0px;
+    font-size:28px;
+  }
+  .card-stats {
+    grid-area: stats; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(255, 7, 110);
+  }
+  .card-stats .stat {
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+  }
+  .card-stats .border {
+    border-left: 1px solid rgb(172, 26, 87);
+    border-right: 1px solid rgb(172, 26, 87);
+  }
+  .card-stats .value{
+    font-size:22px;
+    font-weight: 500;
+  }
+  .card-stats .value sup{
+    font-size:12px;
+  }
+  .card-stats .type{
+    font-size:11px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  .card:hover {
+    transform: scale(1.15);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+  }
+  
+  /* card2 */
+  .card-image.card2 {
+    background: url("images/aodai35.jpg");
+    background-size: cover;
+  }
+  .card-text.card2 .date {
+    color: rgb(255, 77, 7);
+  }
+  .card-stats.card2 .border {
+    border-left: 1px solid rgb(185, 67, 20);
+    border-right: 1px solid rgb(185, 67, 20);
+  }
+  .card-stats.card2 {
+    background: rgb(255, 77, 7);
+  }
+  /*card3*/
+  .card-image.card3 {
+    background: url("https://sofiabridal.vn/wp-content/uploads/2018/09/12-505x800.jpg");
+    background-size: cover;
+  }
+  .card-text.card3 .date {
+    color: rgb(0, 189, 63);
+  }
+  .card-stats.card3 .border {
+    border-left: 1px solid rgb(14, 122, 50);
+    border-right: 1px solid rgb(14, 122, 50);
+  }
+  .card-stats.card3 {
+    background: rgb(0, 189, 63);
+  }
+
+
+
+
+/*CSS   ANH */
+
+ul.subMenu{
+    width: 500px;
+    list-style-type: none;
+    text-decoration: none;
+    display: none;
+    position: absolute;
+    background: linear-gradient(45deg, #a93c3c, #0e3879de);
+    color: black;
+}
+ul.subMenu li a{
+    color: black;
+    display: block;
+    line-height: 40px;
+    text-indent: 20px;
+
+}
+ul#root > li:hover ul.subMenu{
+    display: block;
+}
+
+/*page  */
+
+
+/*scroll header*/
+header{
+    margin-top: -3.7px;
+    margin-left: -192px;
+    width: 100%;
+    position: fixed;
+    /* border-bottom: 1px solid #f5f5f5; */
+    transition: all  0.9s ease-in-out;
+    padding: 5px 0px;
+}
+header.sticky{
+    background: linear-gradient(45deg, #a93c3c, #0e3879de);
+    opacity: 0.9; 
+    color: black;
+    padding: 0px 0px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+}
+/*header.sticky ul#rootB li a {
+    color: #000;
+}*/
+
+ul.subMenuB{
+    margin-top: 3px;
+    width: 478px;
+    list-style-type: none;
+    text-decoration: none;
+    display: none;
+    position: absolute;
+    background: linear-gradient(45deg, #a93c3c, #0e3879de);
+    opacity: 0.95;
+    color: black;
+}
+
+header.sticky ul.subMenuB{
+    margin-top: 3px;
+    width: 478px;
+    list-style-type: none;
+    text-decoration: none;
+    display: none;
+    position: absolute;
+    background: linear-gradient(45deg, #a93c3c, #0e3879de);
+    color: #fff;
+}
+ul.subMenuB li a{
+    color: black;
+    display: block;
+    line-height: 40px;
+    text-indent: 20px;
+
+}
+ul#rootB > li:hover ul.subMenuB{
+    display: block;
+}
+/*end scroll header*/
+
+
+/*END CSS  
+
+/* end--- */
+
+/* dich vu---- */
+*{margin: 0; padding: 0;}
+
+.khoachinh {
+    display: flex;
+}
+
+p#cackhoahockhac {
+    font-size: 29px;
+    padding-top: 30px;
+    color: #f19c2b;
+    text-align: center;
+}
+
+p#cackhoahoc {
+    padding-top: 143px;
+}
+
+p.card-title {
+    padding-top: 35px;
+}
+
+p.card-title.res {
+    padding-top: 0px;
+}
+#card{
+    margin: 70px 70px 70px 70px;
+    width: 300px;
+    
+}
+#imgcard{
+    margin: 10px 10px 10px 10px;
+    width: 250px;
+    height: 250px;
+}
+#sach2{
+    margin: 30px 30px 30px 30px;
+    width: 250px;
+    height: 250px;
+}
+#sachquansu{
+    margin: 30px 30px 30px 50px;
+    width: 200px;
+    height: 250px;
+}
+#sachthay{
+    margin: 30px 30px 30px 50px;
+    width: 200px;
+    height: 250px;
+}
+#sachcotrungdai{
+    margin: 30px 30px 30px 50px;
+    width: 200px;
+    height: 250px;
+}
+#muangay{
+    background-color: #006600;
+    border: 1px solid #006600;
+}
+#caccuonsach{
+    color: #FF9900;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 70px;
+}
+#khoahoc{
+    width: 400px;
+    height: 420px;
+    border-radius: 6%;
+}
+#hinhkhoahoc{
+    width: 312px;
+    height: 199px;
+    border-radius: 10px;
+    position: relative;
+    transform: translate(-2px, -2px);
+}
+#chitietkhoahoc{
+    width: 308px;
+}
+#dangkingay{
+    background-color: #C71585;
+    border:  1px solid #C71585;
+}
+#cackhoahoc{
+    font-size: 40px;
+    color: #FF9900;
+    text-align: center;
+    padding-top: 70px;
+}
+
+
+/* khoa hoc--- */
+*{margin:0}
+
+b.khoademo {
+    color: #efefec;
+    font-family: 'Roboto Slab';
+    position: relative;
+    right: 132px;
+    cursor: pointer;
+}
+
+p.tenmonhoc {
+    position: relative;
+    padding-top: 30px;
+    right: 144px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #eae4e4;
+}
+
+p.bhct {
+    margin-top: 17px;
+    font-weight: 400;
+}
+
+p.bhct a {
+}
+
+p.bhct:hover {
+    background-color: #ffe4c421;
+}
+
+p.bhct.active {
+    background-color: #7f546d36;
+    color: #fafafa;
+}
+
+p.bhct a {
+    text-decoration: none;
+    color: #eae3e3;
+}
+
+p.bai.hoc {
+    padding-top: 6px;
+    text-align: center;
+    font-family: 'FontAwesome';
+    font-size: 25px;
+    font-weight: 600;
+    background: linear-gradient(45deg, #dbb5b5, #eadddd94);
+    /* border-radius: 31%; */
+    padding-bottom: 6px;
+    transform: translateY(10px);
+    color: #b53434;
+}
+
+
+
+.playlist {
+    background: linear-gradient(45deg, #486070, #17100e36);
+    border-radius: 2%;
+    overflow: scroll;
+    overflow-X: hidden;
+    height: 560px;
+    position: relative;
+    left: 114px;
+    box-shadow: 1px 1px 1px 5px #8c95a9f0;
+    top: 21px;
+}
+iframe.demohistory {
+    position: relative;
+    left: 76px;
+    width: 946px;
+    top: 13px;
+    height: 532px;
+    box-shadow: 1px 1px 1px 5px #37407170;
+}
+#fullpage{
+    background: linear-gradient(
+45deg
+, #a93c3c, #0e3879de);}
+.lesson{
+ padding-top: 140px;
+}
+#style-1::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+} 
+#style-1::-webkit-scrollbar-thumb {
+    background: #6a6060d4;
+}
+#style-1::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+} 
+body::-webkit-scrollbar-thumb {
+    background: #d69a2ac2;
+}
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(80, 71, 71, 0.3);
+    background: linear-gradient(45deg, #a93c3c, #0e3879de);
+}
+.hotro p {
+    padding-right: 138px;
+    /* padding-left: 66px; */
+    font-size: 21px;
+    color: white;
+    transform: translate(-146px, 10px);
+    }
+*{margin:0}
+
+.ndphu {
+    color: #e0dddd;
+    padding-bottom: 40px;
+    padding-top: 25px;
+    transform: translate(-140px, 10px);
+}
+
+.ndphu span {
+    padding: 4px;
+}
+
+span.time {
+    padding-left: 349px;
+    padding-right: 29px;
+}
+
