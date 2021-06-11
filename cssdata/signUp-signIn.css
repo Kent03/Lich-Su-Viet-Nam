@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
-/*div
-{
-	border:0.4px solid red;
-}*/
+
 *{
 	margin: 0 ;
 	padding: 0 ;
@@ -143,9 +140,7 @@ section .container .user .formBx .signup a{
 	text-decoration: none!important;
 	color: #577eff;
 }
-/*section .container .user .formBx .signupBx{
-	display: none;
-}*/
+
 section .container .signupBx{
 	pointer-events: none;
 }

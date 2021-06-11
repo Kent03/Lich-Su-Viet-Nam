@@ -1,13 +1,7 @@
 .fontroboto {   font-family: 'Roboto Slab', serif;}
 .fontoswarld{font-family: 'Oswald', sans-serif;}
 
-/*div{
-    border: 1px solid red;
-}
-section{
-    border: 1px solid red;
-}*/
-/*BEGIN MENU & LOGO */
+
 body{
     overflow-x:hidden;
 }
@@ -26,7 +20,6 @@ a.nutslide.btn.btn-warning {
     position: absolute;
     color: white;
     margin-left: 14%;
-    /* background: url(images/icon1.png) no-repeat left top; */
     padding-top: 212px;
     top: -54px;
 }
@@ -44,8 +37,7 @@ a.nav-link {
     /* color: azure; */
 }
 
-navbar-nav nav-item a.nav-link {
-}
+
 
 
 .log a.nav-link.btn.btn-warning,.datban2 {
@@ -109,7 +101,6 @@ a.readmore {
 
 .badichvu {
     padding-top: 69px;
-    /* background: url(https://lh3.googleusercontent.com/proxy/kD1AVfJHxMLbsHer_Np35saJU8nQ7Ouvgy6fCWJ6NIAmgh2oMlGK8WsEdhkM90ug3TgK1UIc0wW9Fw64-NCrEmBCTzFzcr5FSaJWvV5kYGttc8inO09Nr-8tiXW6FBvHHyZ4vzEtp0EEWsHyaH4Z); */
     background: radial-gradient(#cc0000, #1a314861);
 }
 
@@ -241,14 +232,12 @@ span.tieudephu.fontdancing.thoidai {
     height: 550px;
 }
 
-.khoimenu {}
+
 
 .khoimenu {
     background: url(images/videochay.png);
     background-size: cover;
-    /* color: white; */
-    /* width: 1519px; */
-    /* height: 796px; */
+    
 }
 
 .khoimenu.wow.fadeInUp.bannerkieu2dong.logo3 {
@@ -284,7 +273,7 @@ a.rm.fontroboto {
     font-size: 14px;
 }
 
-.docthem {                                                                                                  /*  class = "docthem"*/
+.docthem {                                                                                                  
     height: 40px;
     border-top: 1px dashed gray;
     padding-top: 6px;
@@ -304,13 +293,13 @@ a.rm.fontroboto {
     margin-top: 100px;
 }
 
-.mottinchuan p.fontroboto {                                                                                          /* class = "motinchuan"*/
+.mottinchuan p.fontroboto {                                                                                          
     color: #777;
     line-height: 24px;
     font-size: 14px;
 }
 
-.ngaythang1 {                                                                                                           /*class="ngaythang1"*/
+.ngaythang1 {                                                                                                           
     line-height: 24px;
     font-size: 17px;
     display: inline-block;
@@ -328,7 +317,7 @@ a.tieudetin1.fontoswarld {
 
 .tdtintuchome h2 {font-size: 24px;color: #333;margin-bottom: 55px;}
 
-.tdtintuchome  .fontdancing {                                                                                   /*class="fontdancing" */    
+.tdtintuchome  .fontdancing {                                                                                      
     font-size: 40px;
     color: #feb518;
     font-weight: 600;
@@ -346,7 +335,7 @@ a.tieudetin1.fontoswarld {
     bottom: -59px;
 }
 
-b.fontdancing.tennguoi {                                                                                     /*class="fontdancing"*/
+b.fontdancing.tennguoi {                                                                                     
     font-size: 36px;
     color: #feb518;
     margin-top: 23px;
@@ -533,7 +522,7 @@ img.khoixe {
 
 .slidelehoi {
     margin-top: 18px;
-    background: url(images/BG2.jpg);
+    background: url(images/vh2.jpg);
     background-size: cover;
     color: white;
     margin-bottom: 20px;
@@ -898,7 +887,7 @@ i.fa.fa-tag {
 .gioithieuhcm.hcmabout {
   
     padding: 0;
-    background: url(images/bg_about.jpg);
+    background: url(images/hcmabout.jpg);
 }
 
 
