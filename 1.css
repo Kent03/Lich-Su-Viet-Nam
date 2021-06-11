@@ -207,8 +207,9 @@ p.ktd.\33 ngayle {
 span.tieudephu {
     font-weight: 700;
     font-size: 41px;
-    color: #feb518;
+    color: #ffb71b;
     /* padding-bottom: 15px; */
+    text-shadow: 0.1em 0.1em 0.05em #3333339e;
 }
 
 span.tieudephu.fontdancing.thoidai {
