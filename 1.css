@@ -83,7 +83,7 @@ a.readmore {
 .badichvu h3 a {
     font-size: 32px;
     font-family: 'Oswald', sans-serif;
-    color: #efe706f2;
+    color: #ffdd35f2;
     display: block;
     padding-top: 25px;
     padding-bottom: 15px;
@@ -95,13 +95,13 @@ a.readmore {
     font-family: 'Roboto Slab', serif;
     font-size: 14px;
     line-height: 24px;
-    color: #efe3e3;
+    color: #e4cbcb;
     text-align: center;
 }
 
 .badichvu {
     padding-top: 69px;
-    background: radial-gradient(#cc0000, #1a314861);
+    background: linear-gradient(45deg, #98140bc7, #52202061);
 }
 
 .badichvu.badichvuabout {
