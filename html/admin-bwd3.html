@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Admin</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../CSS/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="../CSS/css/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Timeline CSS -->
+    <link href="../CSS/css/timeline.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../CSS/css/startmin.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="../CSS/css/morris.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../CSS/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.../CSS/js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="../CSS/ckeditor/ckeditor.js"></script>
+    <style type="text/css">
+        .imgB{
+            width: 120px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="wrapper">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+        <!-- Top Navigation: Left Menu -->
+        <ul class="nav navbar-nav navbar-left navbar-top-links">
+            <li><a href="#"><i class="fa fa-home fa-fw"></i> Lịch sử Việt Nam</a></li>
+        </ul>
+
+        <!-- Top Navigation: Right Menu -->
+        <ul class="nav navbar-right navbar-top-links">
+            
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    <i class="fa fa-user fa-fw"></i>
+
+                        Admin
+
+
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu dropdown-user">
+                    
+                    <li><a href=""><i class="fa fa-sign-out fa-fw"></i> Đăng xuất</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <!-- Sidebar -->
+        <div class="navbar-default sidebar" role="navigation">
+            <div class="sidebar-nav navbar-collapse">
+
+                <ul class="nav" id="side-menu">
+                    <li class="sidebar-search">
+                        <div class="input-group custom-search-form">
+                            <input type="text" class="form-control" placeholder="Search...">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-primary" type="button">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="admin-bwd.html" class="active"><i class="fa fa-dashboard fa-fw"></i>Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="admin-bwd2.html"><i class="fa fa-user fa-fw"></i>Quản lý người dùng</a>
+                    </li>
+
+                    <li>
+                        <a href="#"><i class="fa fa-sitemap fa-fw"></i>Quản lý bài viết<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="admin-bwd3.html">Danh sách bài viết</a>
+                            </li>
+                            <li>
+                                <a href="admin-bwd4.html">Chủ đề bài viết</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- Page Content -->
+    <div id="page-wrapper">
+        <div class="container-fluid">
+
+            <div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">
+            Danh sách bài viết
+        </h1>
+    </div>
+</div>
+
+<a href="admin-bwd3-1.html" class="btn btn-primary" style="margin-bottom: 10px;">Thêm bài viết</a>
+
+<table class="table table-bordered">
+    <tr>
+        <td width="50px;">STT</td>
+        <td width="130px">Image</td>
+        <td>Name</td>
+        <td width="120px;">Catalog</td>
+        <td width="120px">Date created</td>
+        <td width="80px;">More</td>
+    </tr>
+
+    <tr>
+        <td style="text-align: center;">1</td>
+        <td>
+            <img src="../CSS/1690.png" class="imgB">
+        </td>
+        <td>Luyện đề thi THPT QG</td>
+        <td>
+                Khóa học      
+        </td>
+        <td>02/06/2021</td>
+        <td>
+            <a href="">View</a>
+            <a href="#">Update</a>
+            <a href="#">Delete</a>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">2</td>
+        <td>
+            <img src="../CSS/aodai35.jpg" class="imgB">
+        </td>
+        <td>Áo dài truyền thống</td>
+        <td>
+                    Thời đại      
+        </td>
+        <td>02/06/2021</td>
+        <td>
+            <a href="">View</a>
+            <a href="#">Update</a>
+            <a href="#">Delete</a>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">3</td>
+        <td>
+            <img src="../CSS/doclap.jpg" class="imgB">
+        </td>
+        <td>    VỊ LÃNH TỤ VĨ ĐẠI Hồ Chí Minh (19/5/1890-2/9/1969).</td>
+        <td>
+                    Triều đại     
+        </td>
+        <td>02/06/2021</td>
+        <td>
+            <a href="">View</a>
+            <a href="#">Update</a>
+            <a href="#">Delete</a>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">4</td>
+        <td>
+            <img src="../CSS/nonla.jpg" class="imgB">
+        </td>
+        <td>Chiếc nón lá dãi nắng dầm mưa cùng người Việt</td>
+        <td>
+                    Bản tin      
+        </td>
+        <td>02/06/2021</td>
+        <td>
+            <a href="">View</a>
+            <a href="#">Update</a>
+            <a href="#">Delete</a>
+        </td>
+    </tr>
+</table>
+
+<!-- <ul class="paginate">
+   
+</ul> -->
+            
+
+        </div>
+    </div>
+
+</div>
+
+<!-- jQuery -->
+<script src="../CSS/js/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="../CSS/js/bootstrap.min.js"></script>
+
+<!-- Metis Menu Plugin JavaScript -->
+<script src="../CSS/js/metisMenu.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="../CSS/js/startmin.js"></script>
+
+</body>
+</html>

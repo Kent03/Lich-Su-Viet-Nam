@@ -2,7 +2,7 @@
 //animate (xử lý dlieu chuyen đong)
 	new WOW().init();
 // xử lý khối swiperjs
-	var swiper = new Swiper(".mySwiper", {
+	var swiper = new Swiper(".mySwiper",{
 		effect: "coverflow",
 		grabCursor: true,
 		centeredSlides: true,
