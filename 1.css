@@ -1960,3 +1960,15 @@ span.time {
     padding-right: 29px;
 }
 
+p{
+    justify-content: center;
+    
+}
+li.nav-item.log.icon {
+    padding-top: 47px;
+    padding-right: -7px;
+    color: white;
+}
+.row.x {
+    overflow-x: auto;
+}
