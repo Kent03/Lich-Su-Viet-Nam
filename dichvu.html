@@ -13,15 +13,28 @@
 
 	<script type="text/javascript" src="vendor/bootstrap.js"></script>
 
-
 	<script type="text/javascript" src="1.js"></script>
 
 	<link rel="stylesheet" href="vendor/bootstrap.css">
-	<link rel="stylesheet" href="vendor/font-awesome.css">
 	<link rel="stylesheet" href="1.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
 	<link rel="stylesheet" type="text/css" href="cssdata/truyenthong.css">
 </head>
+<style>
+	div#ex1 {
+		margin: 0 auto;
+		position: fixed;
+		top: 136px;
+		right: 0;
+		left: 0;
+		height: 80%;
+		max-width: 85%;
+		background: linear-gradient(45deg, #a93c3c, #0e3879de);
+
+	}
+</style>
 
 <body>
 
@@ -108,7 +121,8 @@
 						<p class="card-title res">Giáo viên: thầy Nguyễn Mạnh Hưởng<br>Thời
 							lượng: 52 giờ</p>
 						<p class="card-text res">GIÁ GÓI: 486.000 VNĐ</p>
-						<a href="lessondemo.html" class="btn btn-primary res" id="dangkingay">ĐĂNG KÍ NGAY</a>
+						<a href="#ex1" rel="modal:open" class="btn btn-primary res" id="dangkingay">CHI TIẾT</a>
+						<a href="lessondemo.html" class="btn btn-primary res" id="dangkingay">ĐĂNG KÍ </a>
 					</div>
 				</div>
 				<div class="card" id="khoahoc">
@@ -119,7 +133,8 @@
 						<p class="card-title" style="margin-bottom: 5px;">Giáo viên: thầy Nguyễn Mạnh Hưởng<br>Thời
 							lượng: 35 giờ</p>
 						<p class="card-text" style="margin-bottom: 5px;">GIÁ GÓI: 350.000 VNĐ</p>
-						<a href="cart.html" class="btn btn-primary" id="dangkingay">ĐĂNG KÍ NGAY</a>
+						<a href="#ex1" rel="modal:open" class="btn btn-primary res" id="dangkingay">CHI TIẾT</a>
+						<a href="lessondemo.html" class="btn btn-primary res" id="dangkingay">ĐĂNG KÍ </a>
 					</div>
 				</div>
 				<div class="card" id="khoahoc">
@@ -129,13 +144,72 @@
 						<p class="card-title" style="margin-bottom: 5px;">Giáo viên: thầy Nguyễn Mạnh Hưởng<br>Thời
 							lượng: 5 giờ</p>
 						<p class="card-text" style="margin-bottom: 5px;">GIÁ GÓI: 190.000 VNĐ</p>
-						<a href="cart.html" class="btn btn-primary" id="dangkingay">ĐĂNG KÍ NGAY</a>
+						<a href="#ex1" rel="modal:open" class="btn btn-primary res" id="dangkingay">CHI TIẾT</a>
+						<a href="lessondemo.html" class="btn btn-primary res" id="dangkingay">ĐĂNG KÍ </a>
 					</div>
+
 				</div>
 				<br><br><br><br><br>
 			</div>
+
 		</div>
-		<!---CÁC KHÓA HỌC-->
+
+		<!-- thông tin chi tiết từng khóa -->
+		<div id="ex1" class="modal ">
+			<div class="container-fluid  wow zoomIn">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="leftContent">
+							<img src="https://toplist.vn/images/800px/on-tap-bang-nhieu-hinh-thuc-429629.jpg" alt=""
+								width="95%">
+
+						</div>
+						<div class="mentor-info">
+							<p>VỀ GIẢNG VIÊN:</p>
+							<span>Từ năm 2008, Thầy Nguyễn Mạnh Hưởng đã tham gia bồi dưỡng kiến thức, hướng dẫn học
+								sinh ôn luyện thi trên truyền hình qua các kênh truyền hình với nhiều chương trình thú
+								vị, bổ ích như: Tiếp sức mùa thi, Thầy Cô chúng ta đã thay đổi, Chinh phục kỳ thi THPT
+								quốc gia…</span>
+
+						</div>
+						<div class="iconItem">
+							<div class="icon"><i class="far fa-clock  " aria-hidden="true">72h</i></div>
+							<div class="icon"><i class="far fa-play ">50</i></div>
+							<div class="icon"><i class="far fa-user " aria-hidden="true">102</i> </div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="khoichitiet">
+							<p class="tenkhoa">KHÓA HỌC CHINH PHỤC KỲ THI ĐẠI HỌC 2021</p>
+							<p class="chitiet">THÔNG TIN CHI TIẾT KHÓA HỌC:</p>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab velit maxime ea. Dolores
+								error dignissimos expedita exercitationem ipsum nisi cupiditate atque quasi! Ad, alias
+								inventore. Adipisci, autem? Soluta, facilis adipisci! Lorem ipsum dolor sit amet
+								consectetur adipisicing elit. Corporis nisi quod velit soluta officiis, libero culpa
+								aspernatur aperiam corrupti alias, quibusdam nobis, dolor nemo repellat repudiandae
+								numquam. Ut, similique mollitia!</p>
+							<div class="giatien">
+								<p class="gia">350.000đ</p>
+								<p class="anh"><img
+										src="https://icons.iconarchive.com/icons/custom-icon-design/flatastic-4/512/Sale-icon.png"
+										alt=""></p>
+
+							</div>
+
+						</div>
+						<div class="cartButtom">
+
+							<div class="btn btn-danger btn-block"><a style="color:aliceblue; text-decoration: none;"
+									href="cart.html">MUA NGAY</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- thông tin chi tiết từng khóa -->
+
+		<!---CÁC KHÓA HỌC KHÁC-->
 		<div class="learn2">
 			<div class="container">
 				<p id="cackhoahockhac"><b class="">NHỮNG KHÓA HỌC MỚI RA MẮT NÊN XEM</b></p>
@@ -150,7 +224,9 @@
 							<p class="card-title res">Giáo viên: thầy Nguyễn Mạnh Hưởng<br>Thời
 								lượng: 32 giờ</p>
 							<p class="card-text res">GIÁ GÓI: 315.000 VNĐ</p>
-							<a href="lessondemo.html" class="btn btn-primary res" id="dangkingay">ĐĂNG KÍ NGAY</a>
+							<a href="#ex1" rel="modal:open" class="btn btn-primary res" id="dangkingay">CHI TIẾT</a>
+							<a href="lessondemo.html" class="btn btn-primary res" id="dangkingay">ĐĂNG KÍ </a>
+
 						</div>
 					</div>
 					<div class="card" id="khoahoc">
@@ -161,7 +237,8 @@
 							<p class="card-title" style="margin-bottom: 5px;">Giáo viên: thầy Nguyễn Mạnh Hưởng<br>Thời
 								lượng: 5 giờ</p>
 							<p class="card-text" style="margin-bottom: 5px;">GIÁ GÓI: 150.000 VNĐ</p>
-							<a href="cart.html" class="btn btn-primary" id="dangkingay">ĐĂNG KÍ NGAY</a>
+							<a href="#ex1" rel="modal:open" class="btn btn-primary res" id="dangkingay">CHI TIẾT</a>
+							<a href="lessondemo.html" class="btn btn-primary res" id="dangkingay">ĐĂNG KÍ </a>
 						</div>
 					</div>
 					<div class="card" id="khoahoc">
@@ -172,7 +249,8 @@
 							<p class="card-title" style="margin-bottom: 5px;">Giáo viên: thầy Nguyễn Mạnh Hưởng<br>Thời
 								lượng: 3 giờ</p>
 							<p class="card-text" style="margin-bottom: 5px;">GIÁ GÓI: 180.000 VNĐ</p>
-							<a href="cart.html" class="btn btn-primary" id="dangkingay">ĐĂNG KÍ NGAY</a>
+							<a href="#ex1" rel="modal:open" class="btn btn-primary res" id="dangkingay">CHI TIẾT</a>
+							<a href="lessondemo.html" class="btn btn-primary res" id="dangkingay">ĐĂNG KÍ </a>
 						</div>
 					</div>
 					<br><br><br><br><br>
@@ -191,10 +269,10 @@
 									hàng đầu. Đặc biệt trang web học tập sẽ giúp bạn trao dồi thêm kỹ năng và sáng tạo.
 									Cùng chào đón điều thú vị đến từ "Lịch Sử Việt Nam".</p>
 								<div class="social">
-									<a href=""><i class="fa fa-facebook"></i></a>
-									<a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
-									<a href=""> <i class="fa fa-instagram"></i></a>
-									<a href=""> <i class="fa fa-youtube"></i></a>
+									<a href=""><i class="fab fa-facebook"></i></a>
+									<a href="#"> <i class="fab fa-twitter" aria-hidden="true"></i></a>
+									<a href=""> <i class="fab fa-instagram"></i></a>
+									<a href=""> <i class="fab fa-youtube"></i></a>
 								</div>
 							</div>
 						</div>
@@ -250,33 +328,52 @@
 			</a>
 		</div>
 
-<!-- Messenger Plugin chat Code -->
-<div id="fb-root"></div>
 
-<!-- Your Plugin chat code -->
-<div id="fb-customer-chat" class="fb-customerchat">
-</div>
 
-<script>
-  var chatbox = document.getElementById('fb-customer-chat');
-  chatbox.setAttribute("page_id", "106822430997389");
-  chatbox.setAttribute("attribution", "biz_inbox");
 
-  window.fbAsyncInit = function() {
-	FB.init({
-	  xfbml            : true,
-	  version          : 'v11.0'
-	});
-  };
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 
-  (function(d, s, id) {
-	var js, fjs = d.getElementsByTagName(s)[0];
-	if (d.getElementById(id)) return;
-	js = d.createElement(s); js.id = id;
-	js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-	fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+		<script>
+			$('a.open-modal').click(function (event) {
+				$(this).modal({
+					fadeDuration: 250
+				});
+				return false;
+			});</script>
+		<!-- ===========CHAT========== -->
+
+		<!-- Messenger Plugin chat Code -->
+		<div id="fb-root"></div>
+
+		<!-- Your Plugin chat code -->
+		<div id="fb-customer-chat" class="fb-customerchat">
+		</div>
+
+		<script>
+			var chatbox = document.getElementById('fb-customer-chat');
+			chatbox.setAttribute("page_id", "106822430997389");
+			chatbox.setAttribute("attribution", "biz_inbox");
+
+			window.fbAsyncInit = function () {
+				FB.init({
+					xfbml: true,
+					version: 'v11.0'
+				});
+			};
+
+			(function (d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s); js.id = id;
+				js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
+		<!-- ===========CHAT========== -->
+
 </body>
 
 </html>

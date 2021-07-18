@@ -796,7 +796,7 @@ footer{
 }
 .right form .btn button{
   height: 40px;
-  width: 437px;
+  width: 100%;
   border: none;
   outline: none;
   background: #d38126;
@@ -1137,6 +1137,32 @@ button.iconsearch {
     *{
 }
 
+.btn.btn-danger.btn-block {
+}
+
+.cartButtom {
+    width: 152%;
+    margin: 0 auto;
+    transform: translate(-60px, 14px);
+}
+
+div#ex1 {
+    overflow-y: auto;
+}
+
+.leftContent img {
+    width: 100%;
+}
+
+img {}
+
+.leftContent img {
+}
+
+div#ex1 {
+    transform: translate(-6px, -55px);
+}
+
 .col-sm-8.push-sm-2.thankyou {
     position: relative;
     transform: translate(-2px, 60px);
@@ -1171,6 +1197,22 @@ div#particles-js {
 }
 
 p {}
+
+p.anh {
+    display: none;
+}
+
+p.gia {transform: translate(1px, 35px);background: #af407863;width: 100%;text-align: center;}
+
+.khoichitiet p.anh {}
+
+.khoichitiet p.tenkhoa {
+    font-size: 20px;
+    border-bottom: 1px solid;
+}
+
+.khoichitiet p.chitiet {
+}
 
 p.sizemobile {
     font-size: 27px;
@@ -1273,8 +1315,6 @@ h2.fontoswarld {
     transform: translate(-140px, -23px);
 }
 
-.btn.btn-success {
-}
 
 .mobileaodai {padding-right: 101px;padding-left: 149px;}
 
@@ -1299,8 +1339,6 @@ p.ktd.\33 ngayle {
     transform: translate(1px, -4px);
 }
 
-div#mtren {
-}
 
 div#mtren {
     /* padding-left: 10px; */
@@ -1854,8 +1892,7 @@ p.bhct {
     font-weight: 400;
 }
 
-p.bhct a {
-}
+
 
 p.bhct:hover {
     background-color: #ffe4c421;
@@ -1944,6 +1981,68 @@ body::-webkit-scrollbar-track {
     }
 *{margin:0}
 
+.giatien {
+    display: flex;
+}
+
+.iconItem {
+    display: flex;
+}
+
+.iconItem .icon {padding: 6px 8px;color: #e5dddd;/* font-weight: 100; */}
+
+
+
+.mentor-info {
+    color: aliceblue;
+}
+
+.mentor-info span {
+    margin: 7px;
+}
+
+.mentor-info p {
+    font-size: 22px;
+    font-weight: 400;
+    border-left: 5px solid #f5deb278;
+    padding-left: 5px;
+    margin-bottom: 7px;
+}
+
+.khoichitiet {
+    padding: 23px 0px;
+    color: aliceblue;
+}
+
+
+
+p.anh {
+    padding-left: 20px;
+}
+
+p.anh img {
+    width: 11%;
+}
+
+p.tenkhoa {
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.leftContent {
+    margin: 40px 0px;
+}
+
+.leftContent img {
+    box-shadow: 10px 10px #958c8c;
+}
+
+.leftContent p {
+    font-size: 24px;
+    padding-top: 18px;
+    font-weight: 600;
+}
+
 .ndphu {
     color: #e0dddd;
     padding-bottom: 40px;
@@ -1960,10 +2059,17 @@ span.time {
     padding-right: 29px;
 }
 
-p{
-    justify-content: center;
-    
+
+
+
+
+p.gia {
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
 }
+
+
 li.nav-item.log.icon {
     padding-top: 47px;
     padding-right: -7px;
