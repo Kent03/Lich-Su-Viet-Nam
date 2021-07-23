@@ -170,6 +170,13 @@
 	</div><!-- /.countdown-wrapper -->
 	<!-- endkm -->
 	<!---CÁC KHÓA HỌC-->
+	<div class="search">
+		<div class="icon"></div>
+		<div class="input">
+			<input type="text" placeholder="Tìm kiếm" id="mysearch" name="">
+		</div>
+		<span class="clear" onclick="document.getElementById('mysearch').value = ''"></span>
+	</div>
 	<div class="learn">
 		<div class="container">
 
@@ -403,7 +410,20 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script type="text/javascript" src="vendor/kinetic.js"></script>
 		<script type="text/javascript" src="vendor/jquery.final-countdown.js"></script>
+		
+		<!-- ============searchbox========= -->
+		<script>
+			const icon = document.querySelector('.icon');
+			const search = document.querySelector('.search');
+			icon.onclick = function(){
+				search.classList.toggle('active')
+			}
+		</script>
+				<!-- ============searchbox========= -->
 
+
+
+				
 		<!-- // =========ĐỒNG HỒ=========== -->
 		<script>
 			$('document').ready(function () {
