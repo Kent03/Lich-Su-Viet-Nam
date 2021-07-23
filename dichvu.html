@@ -17,6 +17,7 @@
 
 	<link rel="stylesheet" href="vendor/bootstrap.css">
 	<link rel="stylesheet" href="1.css">
+	<link rel="stylesheet" href="vendor/clock.css">
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
 		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
@@ -26,7 +27,7 @@
 	div#ex1 {
 		margin: 0 auto;
 		position: fixed;
-		top: 136px;
+		top: 88px;
 		right: 0;
 		left: 0;
 		height: 80%;
@@ -105,10 +106,68 @@
 
 	<!-- HET TIEUDEKHOIMENU -->
 	<!-- HET KHOI MENU -->
-
+	<!-- khuyenmai -->
+	<div class="countdown countdown-container container">
+		<div class="clock row">
+			<div class="clock-item clock-days countdown-time-value col-sm-6 col-md-3">
+				<div class="wrap">
+					<div class="inner">
+						<div id="canvas-days" class="clock-canvas"></div>
+	
+						<div class="text dongho">
+							<p class="val">0</p>
+							<p class="type-days type-time">NGÀY</p>
+						</div><!-- /.text -->
+					</div><!-- /.inner -->
+				</div><!-- /.wrap -->
+			</div><!-- /.clock-item -->
+	
+			<div class="clock-item clock-hours countdown-time-value col-sm-6 col-md-3">
+				<div class="wrap">
+					<div class="inner">
+						<div id="canvas-hours" class="clock-canvas"></div>
+	
+						<div class="text dongho">
+							<p class="val">0</p>
+							<p class="type-hours type-time">GIỜ</p>
+						</div><!-- /.text -->
+					</div><!-- /.inner -->
+				</div><!-- /.wrap -->
+			</div><!-- /.clock-item -->
+	
+			<div class="clock-item clock-minutes countdown-time-value col-sm-6 col-md-3">
+				<div class="wrap">
+					<div class="inner">
+						<div id="canvas-minutes" class="clock-canvas"></div>
+	
+						<div class="text dongho">
+							<p class="val">0</p>
+							<p class="type-minutes type-time">PHÚT</p>
+						</div><!-- /.text -->
+					</div><!-- /.inner -->
+				</div><!-- /.wrap -->
+			</div><!-- /.clock-item -->
+	
+			<div class="clock-item clock-seconds countdown-time-value col-sm-6 col-md-3">
+				<div class="wrap">
+					<div class="inner">
+						<div id="canvas-seconds" class="clock-canvas"></div>
+	
+						<div class="text dongho">
+							<p class="val">0</p>
+							<p class="type-seconds type-time">GIÂY</p>
+							<p class="salemoi"><img src="images/salemoi.png" alt=""></p>
+						</div><!-- /.text -->
+					</div><!-- /.inner -->
+				</div><!-- /.wrap -->
+			</div><!-- /.clock-item -->
+		</div><!-- /.clock -->
+	</div><!-- /.countdown-wrapper -->
+	<!-- endkm -->
 	<!---CÁC KHÓA HỌC-->
 	<div class="learn">
 		<div class="container">
+			
 			<p id="cackhoahoc"><b>CÁC KHÓA HỌC GỢI Ý</b></p>>
 
 			<div class="khoachinh">
@@ -149,7 +208,7 @@
 					</div>
 
 				</div>
-				<br><br><br><br><br>
+				<br><br>
 			</div>
 
 		</div>
@@ -182,12 +241,10 @@
 						<div class="khoichitiet">
 							<p class="tenkhoa">KHÓA HỌC CHINH PHỤC KỲ THI ĐẠI HỌC 2021</p>
 							<p class="chitiet">THÔNG TIN CHI TIẾT KHÓA HỌC:</p>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab velit maxime ea. Dolores
-								error dignissimos expedita exercitationem ipsum nisi cupiditate atque quasi! Ad, alias
-								inventore. Adipisci, autem? Soluta, facilis adipisci! Lorem ipsum dolor sit amet
-								consectetur adipisicing elit. Corporis nisi quod velit soluta officiis, libero culpa
-								aspernatur aperiam corrupti alias, quibusdam nobis, dolor nemo repellat repudiandae
-								numquam. Ut, similique mollitia!</p>
+							<p>🔹 Thứ nhất là khóa Pro S (luyện thi) là khóa cung cấp kiến thức nền tảng, bao gồm cả lớp 11 và 12, đây là khóa học đầy đủ nhất, theo các chuyên đề thầy Hưởng đã xây dựng.<br>
+								🔸Thứ 2 là khóa Pro A (luyện đề) bao gồm 20 đề thi theo cấu trúc đề thi của bộ giáo dục, các đề đều có video chữa đề từ 120 đến 150 phút.<br>
+								🔹 Thứ 3 là khóa Pro T (nâng cao, tổng ôn kiến thức) là khóa học nâng cao để tổng hợp và ôn lại kiến thức, dành cho các bạn đã có kiến thức nền tảng.<br>
+								🔸 Thứ 4 là khóa phương pháp ôn luyện: giúp các em có được cách học và phương pháp học.</p>
 							<div class="giatien">
 								<p class="gia">350.000đ</p>
 								<p class="anh"><img
@@ -281,16 +338,16 @@
 							<h2>địa chỉ</h2>
 							<div class="content sizenew">
 								<div class="place">
-									<i class="fa fa-paper-plane-o"></i>
+									<i class="fas fa-paper-plane"></i>
 
 									<span class="text">470 Trần Đại Nghĩa, Ngũ Hành Sơn, Đà Nẵng</span>
 								</div>
 								<div class="phone">
-									<i class="fa fa-phone"></i>
+									<i class="fas fa-phone"></i>
 									<span class="text">(+84) 323 340 0543</span>
 								</div>
 								<div class="email">
-									<i class="fa fa-envelope-o"></i>
+									<i class="fas fa-envelope"></i>
 									<span class="text">SwordBWD@gmail.com</span>
 								</div>
 							</div>
@@ -333,8 +390,31 @@
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="vendor/kinetic.js"></script>
+		<script type="text/javascript" src="vendor/jquery.final-countdown.js"></script>
+
+
+
+
+				<!-- // =========ĐỒNG HỒ=========== -->
+		<script >  
+			$('document').ready(function() {
+				'use strict';
+				
+				$('.countdown').final_countdown({
+					'start': 1362139200,
+					'end': 1388461320,
+					'now': 1387461319        
+				});
+			});
+		</script>
+		<!-- // =========ĐỒNG HỒ=========== -->
+
+
 
 		<script>
 			$('a.open-modal').click(function (event) {

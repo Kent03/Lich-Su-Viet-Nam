@@ -19,6 +19,7 @@
     align-items: center;
     /* margin-bottom: 20px; */
     background: linear-gradient(44deg, #94665b, #29131347);
+    z-index: 0;
 }
 .gioithieuaodai::before
 {
