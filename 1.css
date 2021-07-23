@@ -6,6 +6,9 @@ body{
     overflow-x:hidden;
 }
 
+
+
+
 a.nutslide.btn.btn-warning {
     border-radius: 0;
     width: 165px;
@@ -833,10 +836,9 @@ button.submit:hover {
 @media screen and (max-width: 426px) {
     *{margin:0}
 
-.bottom {
-}
 
-.btn.mobile3 .submit {width: 323px;}
+
+.btn.mobile3 .submit {width: 100%;}
 
 .content.mobile2 {
     padding-right: 0%;
@@ -1009,9 +1011,11 @@ ul.nav.navbar-nav.float-sm-right a {
 ul.nav.navbar-nav.float-sm-right a:hover {background-color: #c34f7c52;border-radius: 4%;color: white;}
 
 nav.navbar.navbar-light.fontroboto {
-    position: absolute;
-    z-index: 100;
-    padding: 4px 192px;
+    position: fixed;
+    z-index: 1;
+    top: -6px;
+    right: 0px;
+    left: 175px;
 }
 
 
@@ -1135,6 +1139,15 @@ button.iconsearch {
 /*XU LY GIAO DIEN DI DONG */
 @media (max-width:576px) {
     *{
+}
+
+navbar-toggler hidden-sm-up {
+    padding-right: 19px;
+}
+
+.inner-header.container {
+    /* margin: 0 auto; */
+    padding: 1px;
 }
 
 .btn.btn-danger.btn-block {
@@ -1277,11 +1290,9 @@ nav.navbar.navbar-light.fontroboto.wow.fadeInDownBig {
 }
 
 .card-image {
-    max-width: 283px;
 }
 
 .card-stats {
-    max-width: 283px;
 }
 
 h2.fontoswarld {
@@ -1304,7 +1315,8 @@ h2.fontoswarld {
 
 .container.ab {
     height: 100%;
-    display: inherit;
+    flex-direction: column;
+    /* display: inherit; */
 }
 
 .col-sm-2 {
@@ -1342,11 +1354,12 @@ p.ktd.\33 ngayle {
 
 div#mtren {
     /* padding-left: 10px; */
-    background: linear-gradient(45deg, #c44848d6, #671c1c);
+    background: linear-gradient(45deg, #c44848d6, #201717e0);
     padding-left: 10px;
     padding-right: 10px;
     margin-left: -24px;
-    margin-top: -5px;
+    margin: 0 auto;
+    margin-top: -53px;
 }
 
 .container.mobile {transform: translateX(-183px);/* background-color: #6b635af2; */}

@@ -1,6 +1,6 @@
-/*scroll truyenthong pages*/
+/* scroll truyenthong pages*/
 
-header{
+ header{
     background: linear-gradient(45deg, #a93c3c, #0e3879de);
     margin-top: -3.7px;
     margin-left: -192px;
@@ -17,5 +17,5 @@ header.sticky{
 }
 header.sticky ul#rootB li a {
     color: #000;
-}
-/*end scroll truyen thong pages*/
+} 
+/*end scroll truyen thong pages */
