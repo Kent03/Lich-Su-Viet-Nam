@@ -1015,7 +1015,7 @@ ul.nav.navbar-nav.float-sm-right a:hover {background-color: #c34f7c52;border-rad
 
 nav.navbar.navbar-light.fontroboto {
     position: fixed;
-    z-index: 1;
+    z-index: 1000;
     top: -6px;
     right: 0px;
     left: 176px;
@@ -2141,7 +2141,7 @@ li.nav-item.log.icon {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	z-index: 0;
+	z-index: 1;
 	cursor: pointer;
 }
 .search .icon::before
