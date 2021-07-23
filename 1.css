@@ -835,7 +835,7 @@ button.submit:hover {
 }
 @media screen and (max-width: 426px) {
     *{margin:0}
-
+html,body{overflow-x: hidden;}
 
 
 .btn.mobile3 .submit {width: 100%;}
@@ -1167,10 +1167,7 @@ div#ex1 {
     width: 100%;
 }
 
-img {}
 
-.leftContent img {
-}
 
 div#ex1 {
     transform: translate(-6px, -55px);
